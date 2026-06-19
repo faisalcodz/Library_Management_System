@@ -48,7 +48,7 @@ A CLI based Library Management System built using Python and MySQL.
 
 \- Git
 
-\- OOP Concepts
+
 
 
 
