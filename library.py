@@ -28,7 +28,7 @@ def add_book():
     finally:
         if conn:
             conn.close()
-# Remove Book
+
 def remove_book():
     conn = None
     try:
@@ -57,7 +57,7 @@ def remove_book():
 
 
 
-# Update Book Information
+
 def update_book():
     conn = None
     try:
@@ -89,8 +89,8 @@ def update_book():
             conn.close()
 
 
+# Issue and Return Book Feature
 
-# Search Book
 def search_book():
     conn = None
     try:
@@ -129,7 +129,7 @@ def search_book():
 
 
 
-# Issue Book
+
 def issue_book():
     conn = None
     try:
@@ -179,7 +179,7 @@ def issue_book():
 
 
 
-# Return Book
+
 def return_book():
     conn = None
 
@@ -250,7 +250,7 @@ def view_books():
 
 
 
-# View Issued Books
+
 def view_issued_books():
 
     conn = None
